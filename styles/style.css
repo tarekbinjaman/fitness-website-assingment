@@ -412,8 +412,8 @@ background: rgba(255, 255, 255, 0.1);
     position: absolute;
     max-width: 184.05px;
     max-height: 83.3px;
-    top: 85%;
-    left: 58%;
+    top: 80%;
+    left: 49%;
     padding: 14px 33px 14px 23px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -441,7 +441,7 @@ background: rgba(255, 255, 255, 0.1);
         align-items: center;
         gap: 8px;
         top: 112%;
-        left: 18%;
+        left: 12%;
         max-width: 164.05px;
         max-height: 83.3px;
         box-sizing: border-box;
@@ -467,14 +467,14 @@ background: rgba(255, 255, 255, 0.1);
 .svg-tri {
     position: absolute;
     top: 105%;
-    left: 25%;
+    left: 15%;
 }
 
 .img-site .banner-person {
     height: 594px;
     width: 357.06px;
     position: relative;
-    left: 40%;
+    left: 25%;
 }
  }
 
