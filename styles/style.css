@@ -413,8 +413,8 @@ background: rgba(255, 255, 255, 0.1);
     position: absolute;
     max-width: 184.05px;
     max-height: 83.3px;
-    top: 120%;
-    left: 54%;
+    top: 95%;
+    left: 56%;
     padding: 14px 33px 14px 23px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -441,8 +441,8 @@ background: rgba(255, 255, 255, 0.1);
         display: flex;
         align-items: center;
         gap: 8px;
-        top: 162%;
-        left: 16%;
+        top: 130%;
+        left: 18%;
         max-width: 164.05px;
         max-height: 83.3px;
         box-sizing: border-box;
@@ -467,15 +467,16 @@ background: rgba(255, 255, 255, 0.1);
 
 .svg-tri {
     position: absolute;
-    top: 105%;
-    left: 15%;
+    top: 122%;
+    left: 27%;
 }
 
 .img-site .banner-person {
-    height: 594px;
-    width: 357.06px;
+    padding-top: 75px;
+    height: 475.2px;
+    width: 285.648px;
     position: relative;
-    left: 30%;
+    left: 42%;
 }
  }
 
