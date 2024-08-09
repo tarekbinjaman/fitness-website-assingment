@@ -706,6 +706,7 @@ background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     border: none;
     border-radius: 18px;
+    object-fit: cover;
 }
 
     .text-button {
@@ -930,4 +931,197 @@ background: rgba(255, 255, 255, 0.1);
         .select2 {
             width: 552px;
         }
+    }
+
+    /* sixth section start from here */
+
+    .sixth-section {
+        max-width: 1060px;
+        margin: 0 auto;
+        padding-bottom: 88px;
+    }
+
+    .meet-text {
+        margin-top: 88px;
+        padding-bottom: 58px;
+        }
+
+    .meet-text h2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .meet-text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+
+    /* Trainer img collage area */
+
+    .image-collage {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 15px;
+        column-gap: 15px;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+    }
+
+    .img-with-text {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img-with-text .img-inside img {
+        width: 326.67px; 
+        height: 272px;
+        border-radius: 18px;
+        object-fit: cover;
+    }
+
+    .inside-text {
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+    .img-with-text .inside-text h4{
+        color: white;
+    }
+    .img-with-text .inside-text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    /* section six responsive start frome here */
+
+    @media (max-width: 576px) {
+        .sixth-section {
+            max-width: 576px;
+            margin: 0 auto;
+        }
+        .image-collage {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .img-with-text .img-inside img {
+            width: 169.15px;
+            height: 231.2px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+
+        .img-with-text .inside-text p {
+            padding-top: 0;
+        }
+    }
+
+
+    /* 6th section end here */
+
+    /* footer section start from here */
+
+    footer {
+        background: rgb(27, 27, 27);
+    }
+
+    .last-section {
+        max-width: 1059px;
+        margin: 0 auto;
+        padding-top: 66px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .last-section .logo {
+        font-size: 56px;
+        font-weight: 900;
+        font-style: italic;
+        color: rgba(230, 83, 60, 1);
+        cursor: pointer;
+        
+    }
+
+    .logo-text {
+        max-width: 443px;
+    }
+
+    .last-text {
+        display: flex;
+        gap: 142px;
+    }
+
+    .last-section .logo-text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .get-started h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-bottom: 27px;
+    }
+
+    .get-started ul {
+        list-style: none;
+    }
+
+    .get-started ul li {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 300;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .last-texto {
+        max-width: 1059px;
+        margin: 0 auto;
+        padding-bottom: 38px;
+    }
+
+    .text-last hr {
+        margin-top: 79px;
+        border: none; /* Remove the default border */
+        height: 1px; /* Set the height to make it visible */
+        background-color: gray; /* Set the color of the <hr> */
+    }
+
+    .last-texto p {
+        color: gray;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        padding-top: 36px;
     }
