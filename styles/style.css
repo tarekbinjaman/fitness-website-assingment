@@ -1153,3 +1153,103 @@ background: rgba(255, 255, 255, 0.1);
             margin: 0 auto;
            }
     }
+
+
+    /* responsive end here */
+
+    .blog-section {
+        max-width: 1059px;
+        margin: 0 auto;
+        padding-top: 88px;
+    }
+
+    .post-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog-text {
+        padding-bottom: 20px;
+    }
+
+    .blog-section .blog-text h2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .blog-section .blog-text p {
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+    }
+
+    .post-gallery .blog-card .text{
+        max-width: 326px;
+
+    }
+
+    .post-gallery .blog-card img {
+        margin-top: 20px;
+        width: 326.67px; 
+        height: 272px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .text  h4{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    }
+
+    .text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+    }
+
+    .text .read-more {
+        margin-top: 10px;
+        padding: 4px 8px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 576px) {
+        .post-gallery {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .blog-section .blog-text h2 {
+            color: #fff;
+            font-size: 36px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .blog-section .blog-text p {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .post-gallery {
+            max-width: 576px;
+            margin-left: 10%;
+            padding-top: 68px;
+        }
+
+        .blog-card {
+            padding-bottom: 15px;
+        }
+
+        .post-gallery .blog-card img {
+            margin-top: 20px;
+            width: 457.34px; /* Increased by 40% */
+            height: 380.8px; /* Increased by 40% */
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #fff;
+        }
+    }
