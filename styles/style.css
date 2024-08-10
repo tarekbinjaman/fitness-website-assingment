@@ -1125,3 +1125,31 @@ background: rgba(255, 255, 255, 0.1);
         text-align: center;
         padding-top: 36px;
     }
+
+    /* footer section responsive start from here */
+
+    @media (max-width: 576px) {
+
+
+
+        .last-section {
+            grid-template-columns: 1fr;
+            max-width: 576px;
+            margin-left:  30px;
+            padding-bottom: 71px;
+        }
+
+        .logo-text {
+            margin-bottom: 102px;
+        }
+
+        .last-text {
+            display: flex;
+            gap: 142px;
+        }
+
+        .text-last hr {
+            width: 80%;
+            margin: 0 auto;
+           }
+    }
