@@ -480,6 +480,41 @@ background: rgba(255, 255, 255, 0.1);
 }
  }
 
+ /* mobile large device */
+
+ @media (max-width: 425px) {
+
+    .text-site {
+        margin: 0 0 0px 15px;
+    }
+
+    .text-area .heading-paragrah {
+        width: 80%;
+    }
+
+    .img-site .banner-person {
+        left: 23%;
+    }
+
+    .rectangel-1 {
+        left: 58%;
+    }
+
+    .rectangel-2 {
+        top: 120%;
+        left: 12%;
+    }
+    .svg-tri {
+        position: absolute;
+        top: 124%;
+        left: 18.7%;
+        z-index: 1;
+    }
+
+ }
+
+ /* mobile large responsive end here */
+
 @media (max-width: 393px) {
 
     .nav-menu ul {
