@@ -492,22 +492,29 @@ background: rgba(255, 255, 255, 0.1);
         width: 80%;
     }
 
+    .img-site {
+        position: relative;
+    }
+
     .img-site .banner-person {
         left: 23%;
     }
 
     .rectangel-1 {
-        left: 58%;
+        top: 30%;
+        left: 61%;
+        padding: 12px 31px 12px 21px;
     }
 
     .rectangel-2 {
-        top: 120%;
+        top: 60%;
+        padding: 12px 31px 12px 21px;
         left: 12%;
     }
     .svg-tri {
         position: absolute;
-        top: 124%;
-        left: 18.7%;
+        top: 65%;
+        left: 20.9%;
         z-index: 1;
     }
 
@@ -665,6 +672,28 @@ background: rgba(255, 255, 255, 0.1);
     }
 }
 
+@media (max-width: 425px) {
+
+    .habit {
+        padding-top: 40px;
+    }
+
+    .habit .images {
+        grid-template-columns: 1fr;
+    }
+
+    .heading-par p {
+        width: 60%;
+    }
+
+    .habit .text-data1 h2 {
+        font-size: 32px;
+    }
+    .habit .text-data1 p {
+        max-width: 90%;
+    }
+}
+
 /* run an extra mile section */
 
 .third-sec {
@@ -755,7 +784,37 @@ background: rgba(255, 255, 255, 0.1);
 
     .text-button p {
         font-size: 12px;
+        text-align: justify;
     }
+
+}
+
+@media (max-width: 425px) {
+    .run-extra {
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .text-button {
+        padding-left: 20px;
+        max-width: 420px;
+    }
+
+    .text-button h2 {
+        font-size: 48px;
+    }
+
+    .text-button p {
+        max-width: 400px;
+        font-size: 14px;
+    }
+
+    .run-img {
+        width: 90%;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    } 
 }
 
 /* Fourth section start from here */
@@ -967,6 +1026,33 @@ background: rgba(255, 255, 255, 0.1);
             width: 552px;
         }
     }
+
+    @media (max-width: 425px) {
+
+        .bmi-second {
+            max-width: 425px;
+        }
+        .input-sec {
+            display: flex;
+           flex-direction: column;
+        }
+
+        .input-sec .inp {
+            width: 300px;
+            gap: 0;
+        }
+
+        .select {
+            width: 340px;
+        }
+
+        .select2 {
+            width: 342px;
+        }
+
+    }
+
+     
 
     /* sixth section start from here */
 
