@@ -1195,7 +1195,8 @@ background: rgba(255, 255, 255, 0.1);
         width: 326.67px; 
         height: 272px;
         object-fit: cover;
-        border-radius: 8px;
+        border-radius: 20px;
+        border: 1px solid #fff;
     }
 
     .text  h4{
