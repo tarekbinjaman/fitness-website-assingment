@@ -216,9 +216,10 @@ background: rgba(255, 255, 255, 0.1);
 }
 
 .svg-tri {
-    top: 300px;
-    position: relative;
-    right: 20%;
+    position: absolute;
+    top: 65.4%;
+    right: 44.2%;
+    z-index: 2;
     
 
 }
@@ -1241,6 +1242,10 @@ background: rgba(255, 255, 255, 0.1);
             padding-bottom: 50px;
             
 
+        }
+
+        .bmi-text p {
+            width: 80%;
         }
 
         .bmi-second {
